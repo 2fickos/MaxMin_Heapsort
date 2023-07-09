@@ -1,4 +1,4 @@
-package maman13;
+
 import java.util.Arrays;
 import java.util.NoSuchElementException;
 import java.util.Scanner;
@@ -115,12 +115,7 @@ public class MaxMinMaxHeap
             }
         }
     }
-    ///////////////
 
-    /**
-     * this function is for the 2 >> (participants)
-     * @param arr
-     */
     public static void buildMinMaxHeap(int[] arr) {
         int n = arr.length;
         for (int i = (n / 2) - 1; i >= 0; i--) {
